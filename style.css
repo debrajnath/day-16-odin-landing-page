@@ -39,5 +39,37 @@ ul > li {
     font-size: 20px;
     font-weight: bold;
 }
+ul > li:hover {
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+}
 
             /* WELCOME TEXT AND IMAGE  */
+.header-container-three {
+    display: flex;
+    padding: 10px;
+    /* background-color: green; */
+}
+.main-welcome-text {
+    font-size: 100px;
+}
+.heading-text {
+    font-size: 50px;
+}
+button {
+    padding: 20px;
+    font-size: larger;
+    background-color: rgb(134, 199, 252);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(110, 189, 253);
+    color: white;
+    padding: 21px;
+    
+}
+.welcome-image > img{
+    height: 100vh;
+}
