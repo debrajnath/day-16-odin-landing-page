@@ -73,3 +73,10 @@ button:hover{
 .welcome-image > img{
     height: 100vh;
 }
+
+.to-visit {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
