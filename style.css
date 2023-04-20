@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Play&family=Rajdhani&family=Roboto+Condensed&display=swap');
 
 * {
     margin: 0;
@@ -26,6 +26,7 @@
     align-items: center;
     flex: 1;
     font-size: 50px;
+    font-family: 'Play', sans-serif;
 }
 ul {
     list-style-type: none;
@@ -83,7 +84,8 @@ ul > li:hover {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(36, 36, 36);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
             /* Cards */
@@ -99,7 +101,7 @@ ul > li:hover {
 }
 .mini-card {
     width: 300px;
-    height: 400px;
+    height: 350px;
 }
 .card-image-one {
     background-image: url("./assets/andromeda.jpg");
@@ -159,6 +161,7 @@ ul > li:hover {
 }
 .img-text{
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
 
 .festival-mars {
@@ -172,6 +175,7 @@ ul > li:hover {
 .mars-text {
     color: white;
     font-size: 90px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* book-space-craft */
@@ -213,4 +217,5 @@ header{
     text-align: center;
     font-size: 20px;
     background-color: rgb(228, 227, 227);
+    font-family: 'Rajdhani', sans-serif;
 }
