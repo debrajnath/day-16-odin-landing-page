@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,18 +54,21 @@ ul > li:hover {
 }
 .main-welcome-text {
     font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .heading-text {
     font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-button {
+.go {
     padding: 20px;
     font-size: larger;
     background-color: rgb(134, 199, 252);
     border: 2px solid white;
     border-radius: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-button:hover{
+.go:hover{
     cursor: pointer;
     background-color: rgb(110, 189, 253);
     color: white;
@@ -79,4 +84,133 @@ button:hover{
     text-align: center;
     font-weight: bold;
     color: rgb(0, 0, 0);
+}
+
+            /* Cards */
+
+.place-card-container {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.mini-card {
+    width: 300px;
+    height: 400px;
+}
+.card-image-one {
+    background-image: url("./assets/andromeda.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    margin-bottom: 10px;
+}
+.card-image-one:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-image-two {
+    background-image: url("./assets/grezur.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    margin-bottom: 10px;
+}
+.card-image-two:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-image-three {
+    background-image: url("./assets/driyuk-y7s.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    margin-bottom: 10px;
+}
+.card-image-three:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card-image-four {
+    background-image: url("./assets/nostrom.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+    margin-bottom: 10px;
+}
+.card-image-four:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.img-text{
+    text-align: center;
+}
+
+.festival-mars {
+    height: 90vh;
+    background-image: url("./assets/bornfire.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+}
+.mars-text {
+    color: white;
+    font-size: 90px;
+}
+
+/* book-space-craft */
+.book-spacecraft-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* background-color: yellowgreen; */
+}
+.spacecraft-blue-div {
+    width: 60vw;
+    background-color: rgb(38, 38, 252);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text-one {
+    font-size: 30px;
+    color: white;
+}
+.text-two {
+    color: white;
+}
+.book-button > button {
+    padding: 20px;
+    font-size: larger;
+    background-color: rgb(38, 38, 252);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.book-button > button:hover {
+    box-shadow: 4px 0px 72px -7px rgba(255,255,255,1);
+    cursor: pointer;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(228, 227, 227);
 }
